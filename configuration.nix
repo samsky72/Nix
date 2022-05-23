@@ -22,6 +22,7 @@
     gc = {
       dates = "weekly";
       automatic = true;
+      options = "--older-than 30d"
     };
     
     # Set auto optimise nix store 
